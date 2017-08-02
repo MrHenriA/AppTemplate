@@ -1,0 +1,8 @@
+{
+    "cSpell.enabled": false,
+        "liveServer.settings.port": 0,
+    "liveServer.settings.root": "/src",
+    "liveServer.settings.CustomBrowser" : "microsoft-edge",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --remote-debugging-port=9222"
+}
+
