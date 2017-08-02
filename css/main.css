@@ -195,6 +195,7 @@ section#features {
 div.modal-body img{
 
 margin: 0 auto;
+margin-top: 5%;
 
 }
 section#parallax {
@@ -414,9 +415,13 @@ footer p {
     }
     #about .blue-circle,
     .blue-circle {
-        width: 50%;
-        padding-bottom: 50%;
+        width: 45%;
+        padding-bottom: 45%;
     }
+
+
+
+
     section#features h4,
     section#features p {
         text-align: center;
