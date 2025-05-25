@@ -125,3 +125,32 @@ $(document).ready(function() {
     offset: 0
   });
 });
+
+// Sale Popup Logic
+$(document).ready(function() {
+  var popup = document.getElementById('salePopup');
+  var closeButton = document.getElementsByClassName('close-button')[0];
+
+  // Show the popup when the page loads
+  if (popup) {
+    popup.style.display = 'block';
+  }
+
+  // When the user clicks on <span> (x), close the popup
+  if (closeButton) {
+    closeButton.onclick = function() {
+      if (popup) {
+        popup.style.display = 'none';
+      }
+    }
+  }
+
+  // When the user clicks anywhere outside of the modal content, close it
+  window.onclick = function(event) {
+    if (event.target == popup) {
+      if (popup) {
+        popup.style.display = 'none';
+      }
+    }
+  }
+});
